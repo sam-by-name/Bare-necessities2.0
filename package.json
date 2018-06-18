@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.5",
+  "description": "first boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": " nodemon index",
+    "knex": "knex",
+    "test": "jest --watchAll"
+  },
+  "repository": "https://github.com/sam-by-name/bare-necessities.git",
+  "author": "sam-by-name <sam luke sanders>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "knex": "^0.14.6",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^23.1.0",
+    "nodemon": "^1.17.5",
+    "supertest": "^3.1.0"
+  }
+}
